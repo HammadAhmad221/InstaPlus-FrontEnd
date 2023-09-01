@@ -1,0 +1,151 @@
+.content {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+    width: 1440px;
+    height: 900px;
+    top: 550px;
+    left: -720px;
+    border: 1px solid #f5f5f5;
+    border-radius: 30px;
+    background-color: #f5f5f5;
+
+  }
+  .card {
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+    linear-gradient(0deg, #D0D1D2, #D0D1D2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    width: 491px;
+  height: 598px;
+  max-width: 100%;
+  top: 674px;
+  left: -246px;
+  border-radius: 8px;
+  margin: auto;
+  }
+  .innerCard{
+      width: 431px;
+  height: 638px;
+  top: 704px;
+  left: -216px;
+  border-radius: 8px;
+  padding-left: 2rem;
+  
+  
+  }
+  h1{
+      width: 115px;
+  height: 45px;
+  top: 704px;
+  left: -216px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  color: rgba(33, 43, 54, 1);
+  
+  
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 428px;
+  height: 85px;
+  top: 761px;
+  left: -213px;
+  border-radius: 8px;
+  border: 1px;
+  margin-bottom: 20px;
+  
+  }
+  .form-group label{
+  display: block;
+      font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(28, 36, 52, 1);
+  margin-bottom: 5px;
+  
+      
+  }
+  .form-group label a{
+    margin-left: 10rem;
+  }
+  
+  .form-group input {
+ 
+  width: 100%;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 20px;
+  box-sizing: border-box; 
+  font-size: 16px;
+  
+  }
+  
+  .button-group{
+      margin-top:4rem;
+  }
+  
+  .signupButton {
+      width: 428px;
+  height: 56px;
+  top: 1096px;
+  left: -213px;
+  border-radius: 8px;
+  box-shadow: 0px 24px 24px 0px rgba(48, 86, 211, 0.25);
+  background-color: rgb(70, 70, 231);
+  color: white;
+  font-size: 20px;
+  
+    }
+    .googleButton{
+      width: 428px;
+  height: 56px;
+  top: 1202px;
+  left: -213px;
+  border-radius: 8px;
+  border: 1px;
+  border: 1px solid rgba(226, 232, 240, 1);
+  background-color:rgba(226, 232, 240, 1) ;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+    }
+    .googleButton img{
+      width: 24px;
+      height: 25px;
+      margin-right: 10px;
+    }
+  .centered-link{
+      display:flex;
+      justify-content: center;
+      margin-top: 2rem;
+  }
+  span{
+      width: Hug (252px);
+  height: Hug (44px);
+  top: 1298px;
+  left: -132px;
+  padding: 10px;
+  border: 0px 0px 2px 0px;
+  gap: 10px;
+  border-bottom: 2px solid rgba(208, 209, 210, 1);
+  font-size: 20px;
+  
+  }
+
+  a{
+      text-decoration: none;
+      color:blue;
+  }
