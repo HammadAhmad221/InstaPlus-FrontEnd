@@ -1,0 +1,220 @@
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+      width: 1440px;
+      height: 900px;
+      top: 550px;
+      left: -720px;
+      border: 1px solid #f5f5f5;
+      border-radius: 30px;
+      background-color: #f5f5f5;
+  
+    }
+    .card {
+        width: 1340px;
+        height: 200px;
+        top: 4977px;
+        left: 885px;
+        border-radius: 8px;
+        opacity: 0.5px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    flex-direction: column; 
+    margin:auto;
+    }
+
+    .row {
+        background-color: rgba(255, 255, 255, 1);
+         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+         padding-left: 2.25rem;
+          margin-top: 2rem;
+          margin-bottom: 1rem;
+      }
+      .row1{
+        display: flex;
+        justify-content: left;
+        width: 1340px;
+        height: 150px;
+        top: 4977px;
+        left: 885px;
+        border-radius: 8px;
+        opacity: 0.5px;
+        
+    }
+    .innerrow{
+        width: 921px;
+height: 155px;
+top: 4992px;
+left: 935px;
+border-radius: 8px;
+border: 1px;
+
+    }
+    .row input{
+        font-size: 20px;
+        padding-left: 1.5rem;
+      }
+      .row1 input{
+
+        width: 921px;
+    height: 64px;
+    top: 2710px;
+    left: -619px;
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid rgba(48, 86, 211, 1)
+    
+      }
+
+      .afterbutton{
+        // display: flex;
+        width: Hug (448px);
+        height: Hug (44px);
+        top: 5103px;
+        left: 935px;
+        padding: 10px;
+        gap: 40px;
+
+        font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+// padding-bottom: 2rem;
+        
+      }
+
+       .Length{
+margin-left: 2rem;
+
+
+      }
+
+        
+          button{
+    width: Hug (115px);
+height: Fixed (40px);
+top: 3370px;
+left: 506px;
+padding: 5px 20px 5px 20px;
+border-radius: 8px;
+background-color: rgba(48, 86, 211, 1);
+color: #f5f5f5;
+border: 1px solid blue;
+padding: 10px;
+padding-left: 15px;
+padding-right: 15px;
+font-size: large;
+
+  }
+  .button{
+    // padding-left: 4.3rem;
+    margin-top: 5rem !important;
+    margin: auto;
+  }
+  .writing{
+    display: flex;
+    width: 1375.97px;
+height: 553px;
+top: 5202px;
+left: -762px;
+border: 1px;
+// background-color: aquamarine;
+  }
+  .first{
+    width: 246px;
+height: 540px;
+top: 5202px;
+left: -762px;
+opacity: 0.5px;
+background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding-left: 1rem;
+
+  }
+
+.first p {
+    margin: 0;
+    padding-top:1rem ;
+    font-family: Poppins;
+font-size: 16px;
+font-weight: bold;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+    text-align: center;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 1rem;
+}
+
+.first label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    order: 2; /* Change the order to place checkboxes on the right */
+    margin-left: 10px; /* Add spacing between label and checkbox */
+  
+}
+
+.ok{
+    width: 296px;
+height: 200px;
+top: 5231px;
+left: -449px;
+border: 1px;
+margin: 1.5rem;
+margin-left: 3rem;
+background-color: rgb(255, 255, 255);
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+padding-left: 1.5rem;
+
+
+
+    // background-color: black;
+}
+.ok h2{
+    width: 136px;
+height: 24px;
+top: 5256px;
+left: -424px;
+opacity: 0.5px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+
+
+}
+.ok input{
+    width: 246px;
+height: 56px;
+top: 5285px;
+left: -424px;
+border-radius: 8px;
+border: 1px;
+border: 1px solid rgba(48, 86, 211, 1);
+padding-left: 1rem;
+
+}
+.okbutton{
+    margin-top: 1rem;
+display: flex;
+justify-content: right;
+padding-right:2rem
+}

@@ -6,6 +6,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SigninComponent } from './signin/signin.component';
 import { PostComponent } from './post/post.component';
 import { OptimizationComponent } from './optimization/optimization.component';
+import { GenerateComponent } from './generate/generate.component';
+import { Generate1Component } from './generate1/generate1.component';
 const routes: Routes = [
   {
     path:'',
@@ -28,8 +30,16 @@ const routes: Routes = [
     component:PostComponent
   },
   {
-    path:'opti',
+    path:'optimize',
     component:OptimizationComponent
+  },
+  {
+    path:'generate',
+    component:GenerateComponent
+  },
+  {
+    path:'generate1',
+    component:Generate1Component
   }
 ];
 

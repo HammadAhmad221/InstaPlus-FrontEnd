@@ -9,6 +9,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SigninComponent } from './signin/signin.component';
 import { PostComponent } from './post/post.component';
 import { OptimizationComponent } from './optimization/optimization.component';
+import { GenerateComponent } from './generate/generate.component';
+import { Generate1Component } from './generate1/generate1.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { OptimizationComponent } from './optimization/optimization.component';
     NavbarComponent,
     SigninComponent,
     PostComponent,
-    OptimizationComponent
+    OptimizationComponent,
+    GenerateComponent,
+    Generate1Component
   ],
   imports: [
     BrowserModule,

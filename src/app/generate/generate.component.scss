@@ -1,0 +1,177 @@
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+      width: 1440px;
+      height: 900px;
+      top: 550px;
+      left: -720px;
+      border: 1px solid #f5f5f5;
+      border-radius: 30px;
+      background-color: #f5f5f5;
+  
+    }
+    .card {
+        width: 1340px;
+        height: 200px;
+        top: 4977px;
+        left: 885px;
+        border-radius: 8px;
+        opacity: 0.5px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    flex-direction: column; 
+    margin:auto;
+    }
+
+    .row {
+        background-color: rgba(255, 255, 255, 1);
+         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+         padding-left: 2.25rem;
+          margin-top: 2rem;
+      }
+      .row1{
+        display: flex;
+        justify-content: left;
+        width: 1340px;
+        height: 150px;
+        top: 4977px;
+        left: 885px;
+        border-radius: 8px;
+        opacity: 0.5px;
+        
+    }
+    .innerrow{
+        width: 921px;
+height: 155px;
+top: 4992px;
+left: 935px;
+border-radius: 8px;
+border: 1px;
+
+    }
+    .row input{
+        font-size: 20px;
+        padding-left: 1.5rem;
+      }
+      .row1 input{
+
+        width: 921px;
+    height: 64px;
+    top: 2710px;
+    left: -619px;
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid rgba(48, 86, 211, 1)
+    
+      }
+
+      .afterbutton{
+        // display: flex;
+        width: Hug (448px);
+        height: Hug (44px);
+        top: 5103px;
+        left: 935px;
+        padding: 10px;
+        gap: 40px;
+
+        font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+padding-bottom: 2rem;
+// text-align: left;
+        
+      }
+
+       .Length{
+margin-left: 2rem;
+
+
+      }
+
+    h1{
+        width: 642px;
+height: 65px;
+top: 2720px;
+left: 1221px;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 800;
+line-height: 45px;
+letter-spacing: 0px;
+// text-align: left;
+color: rgba(80, 65, 188, 1);
+
+
+    }
+        .loading {
+            width: 355px;
+            height: 355px;
+            top: 2828px;
+            left: 1365px;
+            
+            border: 20px solid rgba(48, 86, 211, 0.2); /* Blue border color with some opacity */
+            border-top: 20px solid rgba(48, 86, 211, 1); /* Blue border color */
+            border-radius: 50%; /* Create a circle */
+            animation: spin 3s linear infinite; /* Apply rotation animation */
+            margin: 0 auto; /* Center the loader horizontally */
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .progress-bar {
+            margin-top: 5rem;
+            width: 617px;
+            height: 20px;
+            top: 3270px;
+            left: 1234px;
+            border-radius: 100px;
+            border: 1px;
+            
+            background-color: #f5f5f5; /* Background color of the progress bar container */
+            // border-radius: 10px; /* Rounded corners */
+            overflow: hidden; /* Hide overflowing progress */
+        }
+        
+        .progress {
+            width: 0;
+            height: 100%;
+            background-color: rgba(48, 86, 211, 1); /* Blue color for the progress bar */
+            transition: width 0.3s ease-in-out; /* Smooth animation */
+        }
+        
+        /* Add this class to control the progress value */
+        .progress-filled {
+            width: 70%;
+            border-radius: 100px; /* Adjust the width to represent the progress (e.g., 50% for half progress) */
+        }
+        
+          button{
+    width: Hug (115px);
+height: Fixed (40px);
+top: 3370px;
+left: 506px;
+padding: 5px 20px 5px 20px;
+border-radius: 8px;
+background-color: rgba(48, 86, 211, 1);
+color: #f5f5f5;
+border: 1px solid blue;
+padding: 10px;
+padding-left: 15px;
+padding-right: 15px;
+font-size: large;
+
+  }
+  .button{
+    // padding-left: 4.3rem;
+    margin-top: 5rem !important;
+    margin: auto;
+  }

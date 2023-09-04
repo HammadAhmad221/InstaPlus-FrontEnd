@@ -1,0 +1,45 @@
+<div class="container">
+    <app-navbar></app-navbar>
+    <div class="card">
+        <div class="row">
+            <div class="row1">
+                <div class="innerrow">
+                    <h2>Topic</h2>
+                    <input type="text" placeholder="Enter Your keyword">
+                </div>
+                <div class="button">
+                    <button>Stop</button>
+                </div>
+            </div>
+
+            <div class="afterbutton">
+                <label for="writing">Writing Styles:</label>
+    <select id="writing" name="writing">
+      <option value="Persuative">Persuative</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+    
+    <label for="article-length" class="Length">Article Length:</label>
+    <select id="article-length" name="article-length">
+        <option value="short">Short (Less than 500 words)</option>
+        <option value="medium">Medium (500 to 1000 words)</option>
+        <option value="long">Long (1000 to 2000 words)</option>
+        <option value="very-long">Very Long (More than 2000 words)</option>
+        <option value="custom">Custom</option>
+    </select>
+    
+            </div>
+
+        </div>
+
+    </div>
+
+    <h1>Your Post is being Generated. Please wait!</h1>
+
+    <div class="loading"></div>
+    <div class="progress-bar">
+        <div class="progress progress-filled"></div>
+    </div>
+</div>
