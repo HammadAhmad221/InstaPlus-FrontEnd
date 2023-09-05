@@ -1,0 +1,154 @@
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    // justify-content: center;
+      width: 1440px;
+      height: 900px;
+      top: 550px;
+      left: -720px;
+      border: 1px solid #f5f5f5;
+      border-radius: 30px;
+      background-color: #f5f5f5;
+      gap: 3rem;
+  
+    }
+    .content{
+        width: 1102px;
+height: 142px;
+top: 7019px;
+left: -643px;
+// margin-top: 2rem;
+// background-color: aqua;
+
+
+    }
+    .content h1{
+        width: 494px;
+height: 30px;
+top: 7019px;
+left: -643px;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: justified;
+color: rgba(0, 0, 0, 1);
+
+
+    }
+
+    .content p{
+        width: 1102px;
+height: 96px;
+top: 7065px;
+left: -643px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: justified;
+
+
+    }
+    .cards{
+        width: 1240px;
+height: 539px;
+top: 7201px;
+left: -712px;
+// background-color: aqua;
+display: flex;
+align-items: center;
+
+gap: 10px;
+
+    }
+
+    .parent{
+        display: flex;
+align-items: center;
+// justify-content: center;
+flex-direction: column;
+    }
+
+.parent button{
+    width: 166px;
+height: 56px;
+top: 7684px;
+left: 295px;
+border-radius: 8px;
+
+    box-shadow: 0px 24px 24px 0px rgba(48, 86, 211, 0.25);
+// background-color: blue;
+background: rgba(48, 86, 211, 1);
+
+color: white;
+margin-top: 2rem;
+
+
+}
+#fp button{
+    background-color: green !important;
+}
+      .first{
+        width: 300px;
+        height: 449px;
+        top: 7201px;
+        left: -85px;
+        
+    background-color: rgb(255, 255, 255);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        border: 1px solid rgba(48, 86, 211, 1);
+        padding-left: 1rem;
+        border-radius: 8px;
+    
+      }
+      
+    
+    .first h1 {
+    //     margin: auto;
+    //     padding-top:1rem ;
+    //     font-family: Poppins;
+    // font-size: 16px;
+    // font-weight: bold;
+    // line-height: 24px;
+    // letter-spacing: 0px;
+    
+    //     text-align: center;
+    font-family: Poppins;
+font-size: 30px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+
+    }
+    
+    .checkboxes {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        margin-right: 1rem;
+    }
+    
+    .first label {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+    
+    input[type="checkbox"] {
+        order: 2; /* Change the order to place checkboxes on the right */
+        margin-left: 10px; /* Add spacing between label and checkbox */
+      
+    }

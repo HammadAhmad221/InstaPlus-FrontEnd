@@ -8,6 +8,10 @@ import { PostComponent } from './post/post.component';
 import { OptimizationComponent } from './optimization/optimization.component';
 import { GenerateComponent } from './generate/generate.component';
 import { Generate1Component } from './generate1/generate1.component';
+import { MyArticalComponent } from './my-artical/my-artical.component';
+import { BillingComponent } from './billing/billing.component';
+import { OptimizeResultComponent } from './optimize-result/optimize-result.component';
+import { GenerateResultComponent } from './generate-result/generate-result.component';
 const routes: Routes = [
   {
     path:'',
@@ -40,6 +44,22 @@ const routes: Routes = [
   {
     path:'generate1',
     component:Generate1Component
+  },
+  {
+    path:'artical',
+    component:MyArticalComponent
+  },
+  {
+    path:'billing',
+    component:BillingComponent
+  },
+  {
+    path:'opti1',
+    component:OptimizeResultComponent
+  },
+  {
+    path:'gwr',
+    component:GenerateResultComponent
   }
 ];
 

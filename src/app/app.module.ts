@@ -11,6 +11,10 @@ import { PostComponent } from './post/post.component';
 import { OptimizationComponent } from './optimization/optimization.component';
 import { GenerateComponent } from './generate/generate.component';
 import { Generate1Component } from './generate1/generate1.component';
+import { MyArticalComponent } from './my-artical/my-artical.component';
+import { BillingComponent } from './billing/billing.component';
+import { OptimizeResultComponent } from './optimize-result/optimize-result.component';
+import { GenerateResultComponent } from './generate-result/generate-result.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { Generate1Component } from './generate1/generate1.component';
     PostComponent,
     OptimizationComponent,
     GenerateComponent,
-    Generate1Component
+    Generate1Component,
+    MyArticalComponent,
+    BillingComponent,
+    OptimizeResultComponent,
+    GenerateResultComponent
   ],
   imports: [
     BrowserModule,

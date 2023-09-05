@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 1440px;
+    height: 2673px;
+    top: 2550px;
+    left: 2361px;
+    
+      border: 1px solid #f5f5f5;
+      border-radius: 30px;
+      background-color: #f5f5f5;
+  
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        // margin-bottom: 3rem;
+        background-color: rgba(255, 255, 255, 1);
+    
+         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+         border-radius: 8px;
+         padding-left: 2.25rem;
+         margin-top: 2rem;
+    
+      }
+      .row2{
+        width: 1305px;
+      height: 458px;
+      top: 2872px;
+      left: -669px;
+      opacity: 0.5px;
+      
+      }
+      .row textarea{
+        font-size: 20px;
+        padding-left: 1.5rem;
+        padding-top: 1rem;
+        font-family:sans-serif;
+      }
+      .row2 textarea{
+        width: 1240px;
+        height: 352px;
+        top: 2948px;
+        left: -619px;
+        border-radius: 8px;
+        border: 1px;
+        border: 1px solid rgba(48, 86, 211, 1);
+        
+      }
+.row2 h2{
+    font-family: Poppins;
+font-size: 30px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 0;
+}
+
+.cardContainer{
+  width: 1340px;
+  height: 1346px;
+  top: 3300px;
+  left: 2411px;
+  
+
+}
+
+.parentCard{
+  width: 1340px;
+  height: 1281px;
+  top: 3365px;
+  left: 2411px;
+  border-radius: 8px;
+  
+background-color: rgba(255, 255, 255, 1);
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+// text-align: center;
+
+}
+
+.card{
+  width: 620px;
+height: 1221px;
+top: 3395px;
+left: 2441px;
+border-radius: 8px;
+
+  background-color: rgba(255, 255, 255, 1);
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+text-align: left;
+}
