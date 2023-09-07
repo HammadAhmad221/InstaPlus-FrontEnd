@@ -1,0 +1,26 @@
+
+table{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+
+}
+th, td {
+padding: 5px;
+text-align: left;
+height: 20px;
+
+}
+th{
+text-align: center;
+}
+.colored-row{
+background-color: yellow;
+}
+.cell-width {
+width: 40%;
+}
