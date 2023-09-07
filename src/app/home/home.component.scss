@@ -12,3 +12,74 @@
     background-color: #f5f5f5;
 
   }
+  .innerdiv{
+    width: 1100px;
+    height:800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+    // justify-content: center;
+    // background-color: aqua;
+    // margin: auto;
+  }
+  h1{
+//     width: 686px;
+// height: 150px;
+width: 435px;
+height: 112px;
+top: 145px;
+left: 169px;
+text-align: justify;
+margin-bottom:0px ;
+
+  }
+  span{
+    color:blue;
+  }
+  h2{
+//     width: 192px;
+// height: 30px;
+height: 0px;
+top: -120px;
+left: -551px;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: justified;
+
+  }
+  p{
+    // width: 1102px;
+    width: 919px;
+height: 90px;
+top: -75px;
+left: -551px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: justified;
+
+}
+.button{
+  width: 919px;
+  display: flex;
+ justify-content: center;
+}
+button{
+  width: Hug (134px);
+height: Fixed (40px);
+top: 720px;
+left: 652.5px;
+padding: 10px 20px 10px 20px;
+border-radius: 8px;
+gap: 10px;
+background: rgba(48, 86, 211, 1);
+color: white;
+border:1px solid white;
+
+}

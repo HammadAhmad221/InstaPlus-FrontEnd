@@ -15,6 +15,7 @@ import { MyArticalComponent } from './my-artical/my-artical.component';
 import { BillingComponent } from './billing/billing.component';
 import { OptimizeResultComponent } from './optimize-result/optimize-result.component';
 import { GenerateResultComponent } from './generate-result/generate-result.component';
+import { TabelsComponent } from './tabels/tabels.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { GenerateResultComponent } from './generate-result/generate-result.compo
     MyArticalComponent,
     BillingComponent,
     OptimizeResultComponent,
-    GenerateResultComponent
+    GenerateResultComponent,
+    TabelsComponent
   ],
   imports: [
     BrowserModule,
