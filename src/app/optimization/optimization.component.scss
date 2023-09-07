@@ -1,4 +1,4 @@
-.content {
+.container {
     display: flex;
     flex-direction: column; 
     align-items: center; 
@@ -17,7 +17,8 @@
       width: 100%;
     }
     .card {
-        width: 1240px;
+        // width: 1240px;
+        width: 90%;
         height: 650px;
         top: 2680px;
         left: 922px;
@@ -34,7 +35,8 @@
     margin: auto;
     }
     h1{
-        width: 642px;
+        // width: 642px;
+        width: 66%;
 height: 65px;
 top: 2720px;
 left: 1221px;
@@ -50,7 +52,9 @@ color: rgba(80, 65, 188, 1);
     }
         .loading {
             width: 355px;
+            // width: 30%;
             height: 355px;
+            // height: 30%;
             top: 2828px;
             left: 1365px;
             
@@ -68,7 +72,8 @@ color: rgba(80, 65, 188, 1);
         
         .progress-bar {
             margin-top: 5rem;
-            width: 617px;
+            // width: 617px;
+            width: 45%;
             height: 20px;
             top: 3270px;
             left: 1234px;
@@ -111,9 +116,10 @@ font-size: large;
 
   }
   .button{
-    width: 1340px;
+    // width: 1340px;
+    width: 90%;
     display: flex;
     justify-content: left;
-    padding-left: 6.3rem;
+    // padding-left: .25rem;
     margin-bottom: auto;
   }
