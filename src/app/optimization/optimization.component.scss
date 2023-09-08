@@ -19,9 +19,10 @@
     .card {
         // width: 1240px;
         width: 90%;
-        height: 650px;
-        top: 2680px;
-        left: 922px;
+        // height: 475px;
+        height: 60%;
+        // top: 2680px;
+        // left: 922px;
         border-radius: 8px;
         opacity: 0.5px;
         display: flex;
@@ -32,14 +33,12 @@
     background-color: rgba(255, 255, 255, 1);
         
     //   background-color: aqua;
-    margin: auto;
+    margin: 2rem;
     }
     h1{
         // width: 642px;
         width: 66%;
-height: 65px;
-top: 2720px;
-left: 1221px;
+// height: 65px;
 font-family: Poppins;
 font-size: 30px;
 font-weight: 800;
@@ -51,9 +50,11 @@ color: rgba(80, 65, 188, 1);
 
     }
         .loading {
-            width: 355px;
-            // width: 30%;
-            height: 355px;
+            width: 180px;
+            height: 180px;
+            // width: 230px;
+            // // width: 30%;
+            // height: 230px;
             // height: 30%;
             top: 2828px;
             left: 1365px;
@@ -99,10 +100,7 @@ color: rgba(80, 65, 188, 1);
         }
         
           button{
-    width: Hug (115px);
-height: Fixed (40px);
-top: 3370px;
-left: 506px;
+  
 padding: 5px 20px 5px 20px;
 border-radius: 8px;
 // gap: 10px;

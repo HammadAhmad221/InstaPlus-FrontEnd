@@ -35,15 +35,15 @@ const routes: Routes = [
     component:PostComponent
   },
   {
-    path:'optimize',
+    path:'optimize-loading',
     component:OptimizationComponent
   },
   {
-    path:'generate',
+    path:'generate-loading',
     component:GenerateComponent
   },
   {
-    path:'generate1',
+    path:'generate',
     component:Generate1Component
   },
   {
@@ -55,11 +55,11 @@ const routes: Routes = [
     component:BillingComponent
   },
   {
-    path:'opti1',
+    path:'optimize-result',
     component:OptimizeResultComponent
   },
   {
-    path:'gwr',
+    path:'generate-result',
     component:GenerateResultComponent
   },
   {

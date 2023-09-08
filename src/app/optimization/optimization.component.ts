@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-optimization',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./optimization.component.scss']
 })
 export class OptimizationComponent {
+constructor(private router:Router){}
 
+OptimizedResultPage(){
+  // this.router.navigate(['/post']);
+  this.router.navigate(['/optimize-result']);
+
+}
 }

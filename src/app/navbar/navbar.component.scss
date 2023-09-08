@@ -1,7 +1,9 @@
 .navbar {
     // width: 1440px;
     width: 100%;
-    height: 80px; /* 1px solid black border */
+    height: 80px;
+    // height: 200%;
+     /* 1px solid black border */
     display: flex; /* Display the content horizontally */
     // justify-content: left; /* Center the content horizontally */
     border-top-right-radius: 30px;
@@ -13,6 +15,14 @@
   margin-block-end: auto;
   // position:relative;
   // margin-left: 100px;
+  gap: 2rem;
+  flex-wrap: wrap;
+  }
+
+  .navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 200px;
   }
   
   /* Styling the "BOPTools" text */
@@ -31,5 +41,6 @@
     justify-content: center; /* Center text horizontally */
     align-items: center; /* Center text vertically */
     border-radius: 5px; /* Rounded corners */
+    margin-right: 3rem;
     
   }

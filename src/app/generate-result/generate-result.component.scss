@@ -21,7 +21,7 @@ left: 2375px;
     .row {
         background-color: rgba(255, 255, 255, 1);
          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-         padding-left: 2.25rem;
+         padding-left: 1.25rem;
           // margin-top: 2rem;
           // margin-bottom: 1rem;
           border-radius: 8px;
@@ -119,7 +119,7 @@ padding-bottom: 2rem;
                 background-color: rgba(255, 255, 255, 1);
             
                  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-                 padding-left: 2.25rem;
+                 padding-left: 1.25rem;
                  border-radius: 8px;
               border:1px solid rgba(255, 255, 255, 1);
 
@@ -166,28 +166,36 @@ padding-bottom: 2rem;
 /// 
 .cardContainer{
 // width: 1340px;
-width: 95%;
-height: 863px;
-top: 3300px;
-left: 2411px;
+width: 94%;
+// height: 863px;
 }
+.cardContainer h1{
+  padding-left: 2rem;
+  }
 
 .parentCard{
 display: flex;
 align-items: center;
 justify-content: center;
-gap: 2rem;
+gap: 3rem;
 // width: 1340px;
-width: 100%;
-height: 798px;
-top: 3365px;
-left: 2411px;
+width: 97%;
+// height: 798px;
 border-radius: 8px;
 
 background-color: rgba(255, 255, 255, 1);
 box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 text-align: center;
+flex-wrap: wrap;
 
+}
+.inparent{
+  width: 45%;
+}
+@media (max-width: 426px) {
+  .inparent {
+    width: 100%;
+  }
 }
 
 .card{
@@ -229,14 +237,14 @@ margin:0;
 
 .progress-container {
 // width: 520px;
-width: 95%;
-height: 27px;
-top: 3529px;
-left: 2491px;
+// width: 95%;
+// height: 27px;
+// top: 3529px;
+// left: 2491px;
 
 display: flex;
 align-items: center; /* Center align items vertically */
-width: 84%;
+width: 95%;
 }
 
 /* Style for the label */
@@ -247,7 +255,7 @@ width: 75%;
 }
 .label h4{
 font-family: Poppins;
-font-size: 16px;
+font-size: 70%;
 font-weight: 400;
 line-height: 28px;
 letter-spacing: 0em;
