@@ -2,25 +2,19 @@
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    justify-content: center;
+    // justify-content: center;
       width: 100%;
-      height: 1100px;
-      top: 550px;
-      left: -720px;
       border: 1px solid #f5f5f5;
       border-radius: 30px;
       background-color: #f5f5f5;
+      gap: 2rem;
   
     }
     app-navbar{
         width: 100%;
     }
     .card {
-        // width: 1340px;
         width: 95%;
-        height: 200px;
-        top: 4977px;
-        left: 885px;
         border-radius: 8px;
         opacity: 0.5px;
         
@@ -28,17 +22,19 @@
         justify-content: center;
         align-items: center;
     flex-direction: column; 
-    margin:auto;
+    // margin:auto;
     }
 
     .row {
         background-color: rgba(255, 255, 255, 1);
-         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        //  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 7px rgb(48, 86, 211);
+
          padding-left: 2.25rem;
-          margin-top: 2rem;
+        //   margin-top: 2rem;
           margin-bottom: 1rem;
         width: 93%;
-
+border-radius: 8px;
       }
       .row1{
         display: flex;
@@ -49,9 +45,7 @@
     .innerrow{
         // width: 921px;
         width: 80%;
-height: 155px;
-top: 4992px;
-left: 935px;
+// height: 155px;
 border-radius: 8px;
 border: 1px;
 
@@ -64,9 +58,7 @@ border: 1px;
 
         // width: 921px;
         width: 80%;
-    height: 64px;
-    top: 2710px;
-    left: -619px;
+    height: 40px;
     border-radius: 8px;
     border: 1px;
     border: 1px solid rgba(48, 86, 211, 1)
@@ -99,49 +91,55 @@ margin-left: 2rem;
 
         
           button{
-    width: Hug (115px);
-height: Fixed (40px);
-top: 3370px;
-left: 506px;
+//     width: Hug (115px);
+// height: Fixed (40px);
+// top: 3370px;
+// left: 506px;
 padding: 5px 20px 5px 20px;
 border-radius: 8px;
 background-color: rgba(48, 86, 211, 1);
 color: #f5f5f5;
 border: 1px solid blue;
-padding: 10px;
+// padding: 10px;
 padding-left: 15px;
 padding-right: 15px;
 font-size: large;
+margin-bottom: 1rem;
 
   }
   .button{
     // padding-left: 4.3rem;
     margin-top: 5rem !important;
-    margin: auto;
+    // margin: auto;
   }
   .writing{
-    display: flex;
-    // width: 1375.97px;
+    // display: flex;
     width: 96%;
-// height: 553px;
-// top: 5202px;
-// left: -762px;
 border: 1px;
-flex-wrap: wrap;
+// flex-wrap: wrap;
 // background-color: aquamarine;
   }
   .first{
+    width: 25%;
 opacity: 0.5px;
 background-color: rgb(255, 255, 255);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    padding-left: 1rem;
+    // box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 7px rgb(48, 86, 211);
+
+    // padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    margin-left: 2rem;
+    border-radius: 8px;
 
   }
 
 .first p {
     margin: 0;
     padding-top:1rem ;
-    font-family: Poppins;
+    font-family: 'Poppins';
 font-size: 16px;
 font-weight: bold;
 line-height: 24px;
@@ -156,6 +154,8 @@ text-align: left;
     flex-direction: column;
     gap: 5px;
     margin-right: 1rem;
+    margin-left: 1rem;
+    font-family: 'Poppins';
 }
 
 .first label {
@@ -173,40 +173,49 @@ input[type="checkbox"] {
 .ok{
     // width: 296px;
     width: 25%;
-height: 200px;
+// height: 200px;
 border: 1px;
-margin: 1.5rem;
-margin-left: 3rem;
+// margin: 1.5rem;
+// margin-left: 3rem;
 background-color: rgb(255, 255, 255);
-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+// box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 0px 7px rgb(48, 86, 211);
+
 padding-left: 1.5rem;
+border-radius: 8px;
+margin-left: 23rem;
 
 
 
     // background-color: black;
+}
+h2{
+    font-family: 'Poppins';
 }
 .ok h2{
     // width: 136px;
     width: 90%;
 height: 24px;
 opacity: 0.5px;
-font-family: Poppins;
+font-family: 'Poppins';
 font-size: 20px;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0px;
 text-align: left;
 color: rgba(0, 0, 0, 1);
+padding-top: 1rem;
+margin-top: 0;
 
 
 }
 .ok input{
     // width: 246px;
     width: 70%;
-height: 56px;
+height: 40px;
 border-radius: 8px;
 border: 1px;
-border: 1px solid rgba(48, 86, 211, 1);
+border: 1px solid rgba(48, 86, 211,0.2);
 padding-left: 1rem;
 
 }

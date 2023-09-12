@@ -28,16 +28,19 @@
   .row {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 2rem;
     background-color: rgba(255, 255, 255, 1);
 
-     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-     padding-left: 2.25rem;
+    //  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 7px rgb(48, 86, 211);
 
+    //  padding-left: 2.25rem;
+border-radius: 8px;
   }
   .row1{
 width: 95%;
-height: 173px;
+height: 130px;
 top: 2659px;
 left: -669px;
 opacity: 0.5px; 
@@ -63,16 +66,15 @@ opacity: 0.5px;
 
   
   h2 {
-    margin-bottom: 10px;
+    margin: 10px;
     font-size: 30px;
+    font-family: 'Poppins';
   }
   
  .row1 input{
 
-    width: 90%;
-height: 64px;
-top: 2710px;
-left: -619px;
+    width: 97.75%;
+height: 40px;
 border-radius: 8px;
 border: 1px;
 border: 1px solid rgba(48, 86, 211, 1)
@@ -80,7 +82,7 @@ border: 1px solid rgba(48, 86, 211, 1)
   }
   .row2 textarea{
     // width: 1240px;
-    width: 90%;
+    width: 97.75%;
     height: 352px;
     top: 2948px;
     left: -619px;
@@ -104,13 +106,14 @@ font-size: large;
   }
   .button{
     // width: 1340px;
-    padding-top: .5rem;
+    // padding-top: .5rem;
 
-    width:88%;
+    width:100%;
     display: flex;
     justify-content: right;
-    // padding-right: 4rem;
     margin-bottom: auto;
+    margin-top: 2rem;
+    margin-left: -2rem;
   }
 
 /* Media Query for Smaller Screens */

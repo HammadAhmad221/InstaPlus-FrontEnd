@@ -7,6 +7,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./generate1.component.scss']
 })
 export class Generate1Component {
+  showLabelTable = false;
+  showOkCard = false;
+
 constructor(private router:Router){}
 navigateToGeneratePage(){
   this.router.navigate(['/generate-loading']);

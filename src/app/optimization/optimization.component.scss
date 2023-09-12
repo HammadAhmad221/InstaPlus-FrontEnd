@@ -2,12 +2,8 @@
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    // justify-content: center;
-      // width: 1440px;
+    justify-content: center;
       width: 100%;
-      height: 900px;
-      top: 550px;
-      left: -720px;
       border: 1px solid #f5f5f5;
       border-radius: 30px;
       background-color: #f5f5f5;
@@ -20,7 +16,7 @@
         // width: 1240px;
         width: 90%;
         // height: 475px;
-        height: 60%;
+        height: 45%;
         // top: 2680px;
         // left: 922px;
         border-radius: 8px;
@@ -37,7 +33,7 @@
     }
     h1{
         // width: 642px;
-        width: 66%;
+        width: 55%;
 // height: 65px;
 font-family: Poppins;
 font-size: 30px;
@@ -56,8 +52,8 @@ color: rgba(80, 65, 188, 1);
             // // width: 30%;
             // height: 230px;
             // height: 30%;
-            top: 2828px;
-            left: 1365px;
+            // top: 2828px;
+            // left: 1365px;
             
             border: 20px solid rgba(48, 86, 211, 0.2); /* Blue border color with some opacity */
             border-top: 20px solid rgba(48, 86, 211, 1); /* Blue border color */
@@ -75,11 +71,11 @@ color: rgba(80, 65, 188, 1);
             margin-top: 5rem;
             // width: 617px;
             width: 45%;
-            height: 20px;
-            top: 3270px;
-            left: 1234px;
+            height: 15px;
+            // top: 3270px;
+            // left: 1234px;
             border-radius: 100px;
-            border: 1px;
+            border: 1px solid rgba(80, 65, 188, 1);
             
             background-color: #f5f5f5; /* Background color of the progress bar container */
             // border-radius: 10px; /* Rounded corners */
