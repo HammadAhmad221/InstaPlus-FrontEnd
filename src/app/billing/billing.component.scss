@@ -3,6 +3,7 @@
     flex-direction: column; 
     align-items: center;
       width: 100%;
+    //   height: 100vh;
       border: 1px solid #f5f5f5;
       border-radius: 30px;
       background-color: #f5f5f5;
@@ -32,7 +33,10 @@ margin-bottom: 1rem;
 
 
     }
-
+h1 span{
+    font-size:13px;
+    color: gray;
+}
     .content p{
         // width: 1102px;
         width: 85%;

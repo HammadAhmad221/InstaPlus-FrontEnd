@@ -15,27 +15,43 @@
       <div class="afterbutton">
         <label for="writing" >Writing Styles:</label>
         <select id="writing" name="writing" (click)="showLabelTable = true; showOkCard = false;">
-          <option value="Persuative">Acadmic</option>
-          <!-- <option value="saab">Saab</option>
-          <option value="fiat">Fiat</option>
-          <option value="audi">Audi</option> -->
+          <option value="Acadmic">Acadmic</option>
+          <option value="Authoritative">Authoritative</option>
+          <option value="Conversational">Conversational</option>
+          <option value="Empowering">Empowering</option>
+          <option value="Engaging">Engaging</option>
+          <option value="Entertaning">Entertaning</option>
+          <option value="Friendly">Friendly</option>
+          <option value="General">General</option>
+          <option value="Homurous">Homurous</option>
+          <option value="Informative">Informative</option>
+          <option value="Inspirational">Inspirational</option>
+          <option value="Lighthearted">Lighthearted</option>
+          <option value="Opinionated">Opinionated</option>
+          <option value="Personal">Personal</option>
+          <option value="Persuasive">Persuasive</option>
+          <option value="Practical">Practical</option>
+          <option value="Professional">Professional</option>
+          <option value="Storytelling">Storytelling</option>
+          <option value="Thought-provocking">Thought-provocking</option>
+
         </select>
 
         <label for="article-length" class="Length">Article Length:</label>
         <select id="article-length" name="article-length" (click)="showLabelTable = false; showOkCard = true;">
           <option value="short">Short (Less than 500 words)</option>
-          <!-- <option value="medium">Medium (500 to 1000 words)</option>
+          <option value="medium">Medium (500 to 1000 words)</option>
           <option value="long">Long (1000 to 2000 words)</option>
           <option value="very-long">Very Long (More than 2000 words)</option>
-          <option value="custom">Custom</option> -->
+          <option value="custom">Custom</option>
         </select>
       </div>
     </div>
 
-    <div class="writing">
+    <!-- <div class="writing">
 
       <div *ngIf="showLabelTable" class="label-table">
-        <!-- Your label table content here -->
+        
         
       <div class="first">
         <p>Select the writing style</p>
@@ -65,7 +81,7 @@
       </div>
 
       <div *ngIf="showOkCard" class="ok-card">
-        <!-- Your ok card content here -->
+        
         <div class="ok">
           <h2>Title</h2>
           <input type="text" placeholder="Enter your text" />
@@ -74,9 +90,8 @@
           </div>
         </div>
       </div>
+    </div> -->
 
 
-   
-    </div>
   </div>
 </div>

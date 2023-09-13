@@ -4,10 +4,12 @@
     align-items: center; 
     // justify-content: center;
       width: 100%;
+      height: 100vh;
       border: 1px solid #f5f5f5;
       border-radius: 30px;
       background-color: #f5f5f5;
       gap: 2rem;
+
   
     }
     app-navbar{
@@ -67,14 +69,14 @@ border: 1px;
 
       .afterbutton{
         // display: flex;
-        width: Hug (448px);
-        height: Hug (44px);
-        top: 5103px;
-        left: 935px;
+        // width: Hug (448px);
+        // height: Hug (44px);
+        // top: 5103px;
+        // left: 935px;
         padding: 10px;
-        gap: 40px;
+        // gap: 40px;
 
-        font-family: Poppins;
+        font-family: 'Poppins';
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -82,11 +84,19 @@ letter-spacing: 0px;
 // padding-bottom: 2rem;
         
       }
+      .afterbutton select{
+        border: 0;
+        font-size: 13px;
+width: 9%;
+color: gray;
+    }
+
+      h2{
+        font-family: 'Poppins';
+    }
 
        .Length{
 margin-left: 2rem;
-
-
       }
 
         
@@ -112,117 +122,114 @@ margin-bottom: 1rem;
     margin-top: 5rem !important;
     // margin: auto;
   }
-  .writing{
-    // display: flex;
-    width: 96%;
-border: 1px;
-// flex-wrap: wrap;
-// background-color: aquamarine;
-  }
-  .first{
-    width: 25%;
-opacity: 0.5px;
-background-color: rgb(255, 255, 255);
-    // box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 0px 7px rgb(48, 86, 211);
+//   .writing{
+//     // display: flex;
+//     width: 96%;
+// border: 1px;
+// // flex-wrap: wrap;
+// // background-color: aquamarine;
+//   }
+//   .first{
+//     width: 25%;
+// opacity: 0.5px;
+// background-color: rgb(255, 255, 255);
+//     // box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+//     box-shadow: 0px 0px 7px rgb(48, 86, 211);
 
-    // padding-left: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: space-between;
-    justify-content: space-between;
-    margin-left: 2rem;
-    border-radius: 8px;
+//     // padding-left: 1rem;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: space-between;
+//     justify-content: space-between;
+//     margin-left: 2rem;
+//     border-radius: 8px;
 
-  }
+//   }
 
-.first p {
-    margin: 0;
-    padding-top:1rem ;
-    font-family: 'Poppins';
-font-size: 16px;
-font-weight: bold;
-line-height: 24px;
-letter-spacing: 0px;
-text-align: left;
+// .first p {
+//     margin: 0;
+//     padding-top:1rem ;
+//     font-family: 'Poppins';
+// font-size: 16px;
+// font-weight: bold;
+// line-height: 24px;
+// letter-spacing: 0px;
+// text-align: left;
 
-    text-align: center;
-}
+//     text-align: center;
+// }
 
-.checkboxes {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    font-family: 'Poppins';
-}
+// .checkboxes {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 5px;
+//     margin-right: 1rem;
+//     margin-left: 1rem;
+//     font-family: 'Poppins';
+// }
 
-.first label {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+// .first label {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
 
-input[type="checkbox"] {
-    order: 2; /* Change the order to place checkboxes on the right */
-    margin-left: 10px; /* Add spacing between label and checkbox */
+// input[type="checkbox"] {
+//     order: 2; /* Change the order to place checkboxes on the right */
+//     margin-left: 10px; /* Add spacing between label and checkbox */
   
-}
+// }
 
-.ok{
-    // width: 296px;
-    width: 25%;
-// height: 200px;
-border: 1px;
-// margin: 1.5rem;
-// margin-left: 3rem;
-background-color: rgb(255, 255, 255);
-// box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-box-shadow: 0px 0px 7px rgb(48, 86, 211);
+// .ok{
+//     // width: 296px;
+//     width: 25%;
+// // height: 200px;
+// border: 1px;
+// // margin: 1.5rem;
+// // margin-left: 3rem;
+// background-color: rgb(255, 255, 255);
+// // box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+// box-shadow: 0px 0px 7px rgb(48, 86, 211);
 
-padding-left: 1.5rem;
-border-radius: 8px;
-margin-left: 23rem;
-
-
-
-    // background-color: black;
-}
-h2{
-    font-family: 'Poppins';
-}
-.ok h2{
-    // width: 136px;
-    width: 90%;
-height: 24px;
-opacity: 0.5px;
-font-family: 'Poppins';
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0px;
-text-align: left;
-color: rgba(0, 0, 0, 1);
-padding-top: 1rem;
-margin-top: 0;
+// padding-left: 1.5rem;
+// border-radius: 8px;
+// margin-left: 23rem;
 
 
-}
-.ok input{
-    // width: 246px;
-    width: 70%;
-height: 40px;
-border-radius: 8px;
-border: 1px;
-border: 1px solid rgba(48, 86, 211,0.2);
-padding-left: 1rem;
 
-}
-.okbutton{
-    margin-top: 1rem;
-display: flex;
-justify-content: right;
-width: 70%;
-// padding-right:2rem
-}
+//     // background-color: black;
+// }
+// .ok h2{
+//     // width: 136px;
+//     width: 90%;
+// height: 24px;
+// opacity: 0.5px;
+// font-family: 'Poppins';
+// font-size: 20px;
+// font-weight: 400;
+// line-height: 24px;
+// letter-spacing: 0px;
+// text-align: left;
+// color: rgba(0, 0, 0, 1);
+// padding-top: 1rem;
+// margin-top: 0;
+
+
+// }
+// .ok input{
+//     // width: 246px;
+//     width: 70%;
+// height: 40px;
+// border-radius: 8px;
+// border: 1px;
+// border: 1px solid rgba(48, 86, 211,0.2);
+// padding-left: 1rem;
+
+// }
+// .okbutton{
+//     margin-top: 1rem;
+// display: flex;
+// justify-content: right;
+// width: 70%;
+// // padding-right:2rem
+// }
